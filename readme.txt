@@ -14,37 +14,33 @@ Manage reservation of items by users. Originally designed as a wedding gift list
 Uses shortcode to display lists on a page. Only allows logged in users to reserve items and edit item reservations. 
 Admin settings determine the type of the item e.g Gift, whether to display users associated with items or remain anonymous and the currency.
 
-= Requirements =
+== Requirements ==
+
 * WordPress version 3.5.1 and later
 
 Please visit [the official website](http://keyituk.com/wordpress-plugin-item-reservation/ "Item Reservation") for further details and the latest information on this plugin.
 
-= Details =
+== Details ==
+
 = Shortcode =
 
 Uses shortcode to display lists on a page.
 
 = Page Shortcodes =
 
-[glkit-list] Display the list of items.
-
-[glkit-list-users] Display the list of items for the logged in user.
+* [glkit-list] Display the list of items.
+* [glkit-list-users] Display the list of items for the logged in user.
 
 = Item Shortcodes =
 
 Uses shortcode to display meta data for an item (not page).
 
-[glkit show=id]Display the id of the item from meta data
-
-[glkit show=price] Display the price of the item from meta data
-
-[glkit show=colour] Display the colour of the item from meta data
-
-[glkit show=supplier] Display the supplier of the item from meta data
-
-[glkit show=url] Display the url as a link from the item's meta data
-
-[glkit show=required] Display the required number of items from meta data
+* [glkit show=id]Display the id of the item from meta data
+* [glkit show=price] Display the price of the item from meta data
+* [glkit show=colour] Display the colour of the item from meta data
+* [glkit show=supplier] Display the supplier of the item from meta data
+* [glkit show=url] Display the url as a link from the item's meta data
+* [glkit show=required] Display the required number of items from meta data
 
 
 = Widget =
@@ -63,25 +59,19 @@ There are 2 taxonomy classes.
 
 Corresponds to item shortcodes.
 
-*id - string
-
-*price - number
-
-*colour - string
-
-*supplier - string
-
-*url - url
-
-*required - integer
-
+* id - string
+* price - number
+* colour - string
+* supplier - string
+* url - url
+* required - integer
 
 = Translations =
 
 The application is translation ready, feel free to make your translation related to your native language.
 If you would like to submit translations please email me.
 
-= Installation =
+== Installation ==
 
 This section describes how to install the plugin and get it working.
 
@@ -90,9 +80,10 @@ This section describes how to install the plugin and get it working.
 3. Activate the plugin through the 'Plugins' menu in WordPress.
 4. Create items and display them on pages using shortcode.
 
-= Frequently Asked Questions =
+== Frequently Asked Questions ==
 
 = Can users purchase items =
 
 No but a link to the supplier can be provided
+
 
