@@ -20,45 +20,68 @@ Admin settings determine the type of the item e.g Gift, whether to display users
 Please visit [the official website](http://keyituk.com/wordpress-plugin-item-reservation/ "Item Reservation") for further details and the latest information on this plugin.
 
 = Details =
-== Shortcode ==
+= Shortcode =
+
 Uses shortcode to display lists on a page.
 
-== Page Shortcodes ==
-*[glkit-list] Display the list of items.
-*[glkit-list-users] Display the list of items for the logged in user.
+= Page Shortcodes =
+
+[glkit-list] Display the list of items.
+
+[glkit-list-users] Display the list of items for the logged in user.
+
+= Item Shortcodes =
+
 Uses shortcode to display meta data for an item (not page).
 
-== Item Shortcodes ==
-*[glkit show=id] Display the id of the item from meta data.
-*[glkit show=price] Display the price of the item from meta data.
-*[glkit show=colour] Display the colour of the item from meta data.
-*[glkit show=supplier] Display the supplier of the item from meta data.
-*[glkit show=url] Display the url as a link from the item's meta data.
-*[glkit show=required] Display the required number of items from meta data.
+[glkit show=id]Display the id of the item from meta data
 
-== Widget ==
+[glkit show=price] Display the price of the item from meta data
+
+[glkit show=colour] Display the colour of the item from meta data
+
+[glkit show=supplier] Display the supplier of the item from meta data
+
+[glkit show=url] Display the url as a link from the item's meta data
+
+[glkit show=required] Display the required number of items from meta data
+
+
+= Widget =
+
 There is a widget to display a specified number of items. 
 Only items that are available for reservation are displayed.
 
-== Taxonomy classes ==
+= Taxonomy classes =
+
 There are 2 taxonomy classes.
+
 1. Category - originally designed for the event type if running items for multiple events.
 2. Price Range.
 
-== Meta Data ==
-Corresponds to item shortcodes
-*id - string.
-*price - number.
-*colour - string.
-*supplier - string.
-*url - url.
-*required - integer.
+= Meta Data =
 
-== Translations ==
+Corresponds to item shortcodes.
+
+*id - string
+
+*price - number
+
+*colour - string
+
+*supplier - string
+
+*url - url
+
+*required - integer
+
+
+= Translations =
+
 The application is translation ready, feel free to make your translation related to your native language.
 If you would like to submit translations please email me.
 
-== Installation ==
+= Installation =
 
 This section describes how to install the plugin and get it working.
 
@@ -67,7 +90,7 @@ This section describes how to install the plugin and get it working.
 3. Activate the plugin through the 'Plugins' menu in WordPress.
 4. Create items and display them on pages using shortcode.
 
-== Frequently Asked Questions ==
+= Frequently Asked Questions =
 
 = Can users purchase items =
 
