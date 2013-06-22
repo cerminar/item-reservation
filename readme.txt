@@ -20,41 +20,41 @@ Admin settings determine the type of the item e.g Gift, whether to display users
 Please visit [the official website](http://keyituk.com/wordpress-plugin-item-reservation/ "Item Reservation") for further details and the latest information on this plugin.
 
 = Details =
-==Shortcode==
+== Shortcode ==
 Uses shortcode to display lists on a page.
 
-==Page Shortcodes==
-*[glkit-list] Display the list of items
-*[glkit-list-users] Display the list of items for the logged in user
+== Page Shortcodes ==
+*[glkit-list] Display the list of items.
+*[glkit-list-users] Display the list of items for the logged in user.
 Uses shortcode to display meta data for an item (not page).
 
-===Item Shortcodes===
-*[glkit show=id] Display the id of the item from meta data
-*[glkit show=price] Display the price of the item from meta data
-*[glkit show=colour] Display the colour of the item from meta data
-*[glkit show=supplier] Display the supplier of the item from meta data
-*[glkit show=url] Display the url as a link from the item's meta data
-*[glkit show=required] Display the required number of items from meta data
+== Item Shortcodes ==
+*[glkit show=id] Display the id of the item from meta data.
+*[glkit show=price] Display the price of the item from meta data.
+*[glkit show=colour] Display the colour of the item from meta data.
+*[glkit show=supplier] Display the supplier of the item from meta data.
+*[glkit show=url] Display the url as a link from the item's meta data.
+*[glkit show=required] Display the required number of items from meta data.
 
-==Widget==
+== Widget ==
 There is a widget to display a specified number of items. 
 Only items that are available for reservation are displayed.
 
-==Taxonomy classes==
-There are 2 taxonomy classes
+== Taxonomy classes ==
+There are 2 taxonomy classes.
 1. Category - originally designed for the event type if running items for multiple events.
 2. Price Range.
 
-==Meta Data==
+== Meta Data ==
 Corresponds to item shortcodes
-*id - string
-*price - number
-*colour - string
-*supplier - string
-*url - url
-*required - integer
+*id - string.
+*price - number.
+*colour - string.
+*supplier - string.
+*url - url.
+*required - integer.
 
-==Translations==
+== Translations ==
 The application is translation ready, feel free to make your translation related to your native language.
 If you would like to submit translations please email me.
 
